@@ -1,0 +1,46 @@
+<!-- From: file:/D:/SVNS/Projeto%20Mobile/foodExpress/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.foodexpress.app">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/dessert50" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.foodexpress.app.splash" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_selecionar_restaurante" android:name="com.example.foodexpress.app.selecionarRestaurante" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_page_restaurante" android:name="com.example.foodexpress.app.pageRestaurante" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_menu_restaurnte" android:name="com.example.foodexpress.app.selecionaPrato" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_filtros_restaurante" android:name="com.example.foodexpress.app.filtrosRestaurante" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_seleciona_sobremesa" android:name="com.example.foodexpress.app.selecionaSobremesa" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_concluir" android:name="com.example.foodexpress.app.concluir" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_MainActivity" android:name="com.example.foodexpress.app.MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_lista_restaurante" android:name="com.example.foodexpress.app.listaRestaurante" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_seleciona_bebida" android:name="com.example.foodexpress.app.selecionaBebida" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_adiciona_nota" android:name="com.example.foodexpress.app.adicionaNota" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:label="@string/title_activity_adicionar_endereco" android:name="com.example.foodexpress.app.adicionarEndereco" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity android:label="@string/title_activity_pagamento" android:name="com.example.foodexpress.app.pagamento" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+</manifest>

@@ -1,8 +1,5 @@
 package com.example.foodexpress.app;
 
-/**
- * Created by Vitor on 08/02/2015.
- */
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;

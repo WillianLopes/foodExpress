@@ -2,9 +2,6 @@ package com.example.foodexpress.app;
 
 import java.io.Serializable;
 
-/**
- * Created by MarcoSilva on 20/07/2014.
- */
 public class Restaurante implements Serializable{
 
     public int getId() {

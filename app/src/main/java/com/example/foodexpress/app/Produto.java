@@ -2,9 +2,6 @@ package com.example.foodexpress.app;
 
 import java.io.Serializable;
 
-/**
- * Created by Vitor on 01/02/2015.
- */
 public class Produto implements Serializable {
 
     private int id;
